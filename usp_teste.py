@@ -1,1 +1,1 @@
-print ("Ola")
+print ("Ol")

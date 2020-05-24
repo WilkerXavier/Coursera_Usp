@@ -7,7 +7,7 @@ meses = dias // 30
 anos = meses // 12
 segs_restantes = total_segs % 3600
 minutos = segs_restantes // 60
-segs_restantes_final = segs_restantes % 60  
+segs_restantes_final = segs_restantes % 60
 
 print (anos , "ano", meses , "meses" , dias , "dias" , horas ,"horas" , minutos , "minutos e" , segs_restantes_final , " segundos")
 

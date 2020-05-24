@@ -4,4 +4,3 @@ perimetro = int(quadrado) * 4
 area = int(quadrado)**2
 
 print ("O perimetro: ", perimetro, "- area: ", area)
-

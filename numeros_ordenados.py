@@ -1,8 +1,15 @@
-a = int(input("Digite um inteiro 1: "))
-b = int(input("Digite um inteiro 2: "))
-c = int(input("Digite um inteiro 3: "))
+crescente = True
+anterior = int(input("Digite o primeiro numero da sequencia: "))
 
-if ((a < b) < c ) and (b < c):
-        print(" Ordem Crescente !!!")
-else:
-        print("Não esta na ordem crescente")
+valor = 1
+
+while valor != 0 and crescente:
+    valor = int(input("Digite o proximo numero da sequencia: "))
+    if valor > anterior:
+        crescente = False
+    anterior = valor
+     
+if crescente:
+    print ("A sequencia está em ordem crescente !!!!")
+else: 
+    print ("A sequencia não está em ordem crescente !!!!")
